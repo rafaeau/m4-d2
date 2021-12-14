@@ -37,9 +37,16 @@
   }
 }
 
-footer {
-  position: fixed;
+Footer {
   height: 100px;
   bottom: 0;
   width: 100%;
+}
+
+#book-title {
+  text-align: left;
+  display:-webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
